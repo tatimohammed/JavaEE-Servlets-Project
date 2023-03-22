@@ -12,9 +12,13 @@ public class Logout extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		
+		// Page to redirect the client
 		String loginPage = "/Login.jsp";
-
+		
+		// Invalidate the session to log out the user
 		request.getSession().invalidate();
+		
+		// Redirect to Login page
 		getServletContext().getRequestDispatcher(loginPage).forward(request, response);
 	}
 

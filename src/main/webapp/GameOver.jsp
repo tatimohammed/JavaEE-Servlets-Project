@@ -20,7 +20,7 @@
 		</h1>
 	</div>
 	<div id="game"
-		style="border: 5px solid lightgreen;text-align: center; margin-left: 30%; width: 600px; height: 500px; background-color: skyblue;">
+		style="border: 5px solid lightgreen;text-align: center; margin-left: auto;margin-right: auto; width: 600px; height: 500px; background-color: skyblue;">
 		<h1 style="padding-top: 17%; font-size: 50px">Game Over</h1>
 		<form action="Game" method="POST">
 			<input style="color: blue; background-color: white; border-color: blue; font-size: 20px; text-align: center; margin-top: 7%" type="submit" value="REPLAY" name="replay">

@@ -1,4 +1,3 @@
-<%@page import="java.util.Collections"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="com.info.*"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -46,13 +45,11 @@ table{
 		</h1>
 	</div>
 	<div id="leaderboard"
-		style="margin-left: 30%; width: 600px; height: 500px; background-color: skyblue;">
+		style="margin-left: auto; margin-right: auto; width: 600px; height: 500px; background-color: skyblue;">
 		<h2
 			style="background-color: white; border: 2px solid skyblue; color: blue; letter-spacing: 4px; width: 597px; text-align: center;">OTHER
 			USERS SCORES</h2>
-		<p style="line-height: 40px; text-align: center;">
-		</p>
-			<table style="text-align: center; font-size: 20px; line-height: 40px; margin-left: 28%">
+			<table style="text-align: center; font-size: 20px; line-height: 40px; margin-left: auto; margin-right: auto">
 				<tr>
 					<th>User Name</th>
 					<th>Best Score</th>

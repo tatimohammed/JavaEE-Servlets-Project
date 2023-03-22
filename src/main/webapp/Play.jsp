@@ -22,7 +22,7 @@
 		</h1>
 	</div>
 	<div id="game"
-		style="border-radius: 15px;text-align: center; margin-left: 30%; width: 600px; height: 500px; background-color: skyblue;">
+		style="border-radius: 15px;text-align: center; margin-left: auto; margin-right: auto; width: 600px; height: 500px; background-color: skyblue;">
 		<h2
 			style="background-color: white; border: 2px solid skyblue; color: blue; letter-spacing: 4px; width: 597px; text-align: center;">GAME</h2>
 		<h3 style="font-size: 25px; margin-top: 25%; color: blue;">Dice
@@ -53,7 +53,7 @@
 		<p style="color: red; font-size: 20px; margin-top: 10%">Actual
 			Score: <%out.print(u.getScore());%> | Best Score: <%out.print(u.getBestScore()); %></p>
 	</div>
-	<div style="text-align: center; margin-top: 2%;">
+	<div style="margin-left: auto; margin-right: auto;text-align: center; margin-top: 2%;">
 		<a
 			style="background-color: blue; padding: 10px; border-radius: 25px; font-size: 20px; color: white; text-decoration: none; margin: 20px"
 			href="/firstApp/UserHome.jsp">LEADERBOARD</a> <a
