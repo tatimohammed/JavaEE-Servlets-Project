@@ -1,7 +1,7 @@
 # JavaEE-Servlets-Project
 In this repository you will find a Dice game developed using jakarta.servlets.
 ## Game Description
-<img src="https://user-images.githubusercontent.com/95311883/226892442-fd153d9c-c841-4a37-922d-eb5089b44665.png" width="500">
+<img src="https://user-images.githubusercontent.com/95311883/227712779-c3aab4a5-8129-4b2c-99e5-1b1bfccecfb3.png" width="500">
 
 We consider a game in which we roll 3 dice one by one in any order, using an interface. These dice are numbered 1, 2, and 3.
 
@@ -19,13 +19,13 @@ If neither of these conditions is met, the player receives a score of zero. The 
 
 ## Game features
 ### Sign up & Log in
-![Untitled design (1)](https://user-images.githubusercontent.com/95311883/226898971-5b8534c1-2494-4ea5-b6c5-aa59e4fe7efd.png)
+![Untitled design (7)](https://user-images.githubusercontent.com/95311883/227712896-566a18b6-e7a8-4f62-8d13-2461c8850c5d.png)
 
 You can create user & log into it. these features release a some exception:
 ![Untitled design (6)](https://user-images.githubusercontent.com/95311883/226902410-867f887b-53ba-4ee9-852c-535037cd6a4a.png)
 
 ### Consulting your best score & other player's scores
-<img src="https://user-images.githubusercontent.com/95311883/226903090-117c8a02-3224-4e34-b868-ee6e9a453022.png" width="500">
+<img src="https://user-images.githubusercontent.com/95311883/227712937-0682bdf8-3029-4e69-8493-7a6f8a025755.png" width="500">
 
 ## Tools used
 + IDE:
