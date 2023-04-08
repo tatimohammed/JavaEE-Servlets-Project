@@ -1,5 +1,54 @@
 # JavaEE-Servlets-Project
 In this repository you will find a Dice game developed using jakarta.servlets.
+``` bash
+.
+├── pom.xml
+├── README.md
+├── src
+│   └── main
+│       ├── java
+│       │   └── com
+│       │       ├── info
+│       │       │   ├── Dice.java
+│       │       │   ├── Message.java
+│       │       │   └── User.java
+│       │       └── servlets
+│       │           ├── Game.java
+│       │           ├── Login.java
+│       │           ├── Logout.java
+│       │           └── Signup.java
+│       └── webapp
+│           ├── CreateAccount.jsp
+│           ├── ErrorPage.jsp
+│           ├── GameOver.jsp
+│           ├── Login.jsp
+│           ├── Play.jsp
+│           ├── UserHome.jsp
+│           └── WEB-INF
+│               └── web.xml
+└── target
+    ├── classes
+    │   └── com
+    │       ├── info
+    │       │   ├── Dice.class
+    │       │   ├── Message.class
+    │       │   └── User.class
+    │       └── servlets
+    │           ├── Game.class
+    │           ├── Login.class
+    │           ├── Logout.class
+    │           └── Signup.class
+    └── m2e-wtp
+        └── web-resources
+            └── META-INF
+                ├── MANIFEST.MF
+                └── maven
+                    └── com.ensah
+                        └── firstApp
+                            ├── pom.properties
+                            └── pom.xml
+
+```
 ## Game Description
 <img src="https://user-images.githubusercontent.com/95311883/227712779-c3aab4a5-8129-4b2c-99e5-1b1bfccecfb3.png" width="500">
 
